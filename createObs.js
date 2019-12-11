@@ -1,11 +1,10 @@
-
-function createObject() {
-    for (var i = 1; i < 16; i++) {
-       //console.log('{' + i + ':' + i * i + '}')
-        return ('{' + i + ':' + i * i + '}')
-    }
+ var n = (n)=>{
+    return n * n;
+ }
+let obj = {};
+for (let n = 2; n < 15; n++) {
+    obj[n] = n*n;
 }
-
-createObject()
-    
-    
+ 
+console.log(obj);
+ 
